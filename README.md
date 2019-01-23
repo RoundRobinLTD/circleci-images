@@ -10,6 +10,7 @@ A set of convenience images that work better in context of CI.  This repo contai
 * Language images (e.g. `ruby`, `python`, `node`) are images targeted for common programming languages with the common tools pre-installed.  They primarily extend the [official images](#official-images) and install additional tools (e.g. browsers) that we find very useful in context of CI.
 * Service images (e.g. `mongo`, `postgres`) are images that have the services pre-configured with development/CI mode.  They also primarily extend the corresponding [official images](#official-images) but with sensible development/CI defaults (e.g. disable production checks, default to nojournal to speed up tests)
 
+
 ## Official Images
 
 We extend [Docker Official Repositories](https://docs.docker.com/docker-hub/official_repos/) in order to start with the same consistent set of images.
